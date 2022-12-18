@@ -1,0 +1,12 @@
+﻿using DatabaseFirst.Abstract;
+using System;
+using System.Collections.Generic;
+
+namespace DatabaseFirst.Models
+{
+    public partial class CategorySalesFor1997 : IEntity
+    {
+        public string CategoryName { get; set; } = null!;
+        public decimal? CategorySales { get; set; }
+    }
+}
